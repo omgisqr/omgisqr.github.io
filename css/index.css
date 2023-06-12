@@ -10,13 +10,15 @@
 	justify-content: center;
 	align-items: center;
 	/* 让页面高度占浏览器可视区域的高度 */
-	background-color: #393d49;
+	background:rgba(R,G, B, A);
 	margin-left: 15%;
 	margin-top: 100px;
 }
 .container {
 	width: 1000px;
 	height: 500px;
+	    box-shadow: 5px 5px 5px rgba(10, 10, 155, 0.5);
+			background-color: rgba(93, 98, 255, 0.5);
 }
 .container ul {
 	/* 清除li元素前面的小黑点 */
@@ -56,7 +58,7 @@
 	/* 给大图片 也加一个透明边框 不为了啥 就是为了和小图片对称 */
 	border: 5px solid transparent;
 	/* 背景   图片路径   no-repeat是让图片不重复 默认是重复的 */
-	background: url(../img/1.jpg) no-repeat;
+	background: url(../img/头图7.png) no-repeat;
 	/* 图片以宽度为最大铺满整个盒子 */
 	background-size: contain;
 	transition: all 0.5s;
@@ -92,31 +94,31 @@
 }
 /* 移动框 end */
 .container ul li:nth-child(1):hover ~ .bigImg {
-	background-image: url(../img/1.jpg);
+	background-image: url(../img/头图7.png);
 }
 .container ul li:nth-child(1):hover ~ .frame {
 	left: 0;
 }
 .container ul li:nth-child(2):hover ~ .bigImg {
-	background-image: url(../img/2.jpg);
+	background-image: url(../img/头图8.png);
 }
 .container ul li:nth-child(2):hover ~ .frame {
 	left: 200px;
 }
 .container ul li:nth-child(3):hover ~ .bigImg {
-	background-image: url(../img/3.jpg);
+	background-image: url(../img/头图3.png);
 }
 .container ul li:nth-child(3):hover ~ .frame {
 	left: 400px;
 }
 .container ul li:nth-child(4):hover ~ .bigImg {
-	background-image: url(../img/4.jpg);
+	background-image: url(../img/头图4.png);
 }
 .container ul li:nth-child(4):hover ~ .frame {
 	left: 600px;
 }
 .container ul li:nth-child(5):hover ~ .bigImg {
-	background-image: url(../img/5.jpg);
+	background-image: url(../img/头图5.png);
 }
 .container ul li:nth-child(5):hover ~ .frame {
 	left: 800px;

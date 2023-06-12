@@ -64,7 +64,7 @@ position: relative;
 }
 .box{
 	width:1000px;
-	height:638px;
+	height:720px;
 	margin:100px auto;
 	border:0px solid #FFF;
 	overflow:hidden;
@@ -164,12 +164,13 @@ position: relative;
 }
 .box3{
 	width:1000px;
-	height:511px;
+	height:633px;
 	margin:100px auto;
 	border:0px solid #FFF;
 	overflow:hidden;
-	background-color:rgba(255,255,255,0.0);
+	background-color:rgba(10,10,155,0.3);
 	box-shadow:5px 5px 7px rgba(10,10,155,0.6);}
+
   .box3 li{
   	float:left;
   	position:relative;

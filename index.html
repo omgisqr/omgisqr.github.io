@@ -4,63 +4,79 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="website3.css" />
-    <title>Welcome to my world!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Welcome to my world! </title>
   </head>
   <body>
-    <div class="container">
-      <div class="navbar">
-        <img src="img/logo.png" class="logo" />
-        <nav>
-          <ul>
-            <li><a href="个人介绍.html">个人介绍</a></li>
-            <li><a href="公众号设计.html">头图设计</a></li>
-            <li><a href="H5设计.html">长图设计</a></li>
-            <li><a href="其他内容.html">其他内容</a></li>
-          </ul>
-        </nav>
-        <img src="img/menu.png" class="menu-icon" />
-      </div>
-      <div class="row">
-        <div class="col">
-          <h1>好巧！</h1>
-          <h2>你也在看我的作品集网站吗！</h2>
-          <p>
-            简单介绍一下，我叫黄倩茹，MBTI是热情小狗enfp，我喜欢世界上一切多彩
-            且有趣的东西，并时刻保持着旺盛的好奇心，如果你想了解更多关于我和我作品的讯息，请点击右边的按钮吧！
-            如果你拿不准，可以点击下方“探索”按钮，随机了解关于我的一切！
-            祝你旅途愉快！
-          </p>
-          <button type="button">探索</button>
-        </div>
-        <div class="col">
-          <a href="个人介绍.html">
-          <div class="card1 card">
-            <h5>个人介绍</h5>
-            <p2>关于我的特长、技能、日常等</p2>
-          </div>
-        </a>
-<a href="公众号设计.html">
-          <div class="card2 card">
-            <h5>公众号设计</h5>
-            <p2>各种风格的头分图与长图</p2>
-          </div>
-        </a>
-        <a href="H5设计.html">
-          <div class="card3 card">
-            <h5>H5设计</h5>
-            <p2>或复古或可爱的H5页面设计</p2>
-          </div>
-          </a>
-<a href="其他内容.html">
-          <div class="card4 card">
-            <h5>其他内容</h5>
-            <p2>包括了UI设计、PPT设计、摄影作品等</p2>
-          </div>
-        </a>
+    <header class="header">
+      <a href="#" class="logo">HuangQianru</a>
 
-        </div>
+      <nav class="navbar">
+        <a href="index.html" class="item" style="--i: 2">个人介绍</a>
+        <a href="公众号设计.html" class="item" style="--i: 3">公众号设计</a>
+        <a href="H5设计.html" class="item" style="--i: 4">H5设计</a>
+        <a href="其他内容.html" class="item" style="--i: 5">其他内容</a>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home-content">
+        <h3>欢迎来到我的主页</h3>
+        <h1>我的名字叫黄倩茹</h1>
+
+        <p>我叫黄倩茹，我性格开朗，有较强的审美能力、创造力，同时有较强的责任心，喜欢学习各种新事物。</p>
+          <p>熟练运用ps、ai、lightroom、snapseed等进行图像编辑、运用e2进行推送的svg设计,利用pr、剪映进行视频剪辑。</p>
+          <p>我的设计风格多样（但偏好复古），作品会根据主题变化，借此探索不同的设计风格，挖掘不同作品的设计特点。</p>
+          <p>我敢于挑战新的设计形式，尝试过H5、商业banner、推送长图、头分图、PPT、UI等创作。</p>
+
       </div>
+      <div class="home-img">
+        <img src="我的照片.png" alt="" />
+      </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+    <div class="p2">
+      <p>作品集</p>
     </div>
+    <div class="p3">
+      <p>Portfolio</p>
+    </div>
+    <div class="body">
+      <a href="公众号设计.html">
+      <div class="card">
+          <div class="photo"><img src="img/pic-3.png" alt=""></div>
+
+          <h1>公众号设计</h1>
+          <h2>设计启蒙</h2>
+          <p>里面包括了各种头图banner、推送长图、相关海报</p>
+      </div>
+    </a>
+    <a href="H5设计.html">
+      <div class="card">
+          <div class="photo"><img src="img/pic-2.png" alt=""></div>
+          <h1>H5设计</h1>
+          <h2>设计进步</h2>
+          <p>一些互动页面的设计</p>
+      </div>
+    </a>
+    <a href="其他内容.html">
+
+      <div class="card">
+          <div class="photo"><img src="img/pic-4.png" alt=""></div>
+          <h1>其他内容</h1>
+          <h2>开始接触一些商单和比赛</h2>
+          <p>里面有ip设计、UI设计、PPT设计以及一些摄影作品</p>
+      </div>
+    </a>
+
+    </div>
+
+
   </body>
 </html>
